@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/madmin"
 )
 
 // healStatusSummary - overall short summary of a healing sequence

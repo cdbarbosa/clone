@@ -16,7 +16,7 @@
 
 package ldap
 
-import "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
+import "github.com/minio/minio/cmd/config"
 
 // SetIdentityLDAP - One time migration code needed, for migrating from older config to new for LDAPConfig.
 func SetIdentityLDAP(s config.Config, ldapArgs Config) {

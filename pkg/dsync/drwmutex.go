@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/console"
+	"github.com/minio/minio/pkg/console"
 )
 
 // Indicator if logging is enabled.

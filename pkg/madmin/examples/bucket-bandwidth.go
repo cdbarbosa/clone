@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"log"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	"github.com/minio/minio/pkg/madmin"
 )
 
 func main() {

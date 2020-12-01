@@ -22,9 +22,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/env"
+	"github.com/minio/minio/cmd/config"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/env"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

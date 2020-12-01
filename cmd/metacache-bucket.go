@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/klauspost/compress/s2"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/hash"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/hash"
 	"github.com/tinylib/msgp/msgp"
 )
 

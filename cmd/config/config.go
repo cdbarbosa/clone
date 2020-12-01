@@ -25,9 +25,9 @@ import (
 	"strings"
 
 	"github.com/minio/minio-go/v7/pkg/set"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/env"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	"github.com/minio/minio/pkg/auth"
+	"github.com/minio/minio/pkg/env"
+	"github.com/minio/minio/pkg/madmin"
 )
 
 // Error config error type

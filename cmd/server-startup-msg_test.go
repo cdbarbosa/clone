@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	"github.com/minio/minio/pkg/madmin"
 )
 
 // Tests if we generate storage info.

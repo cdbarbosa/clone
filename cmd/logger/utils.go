@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"runtime"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/color"
+	"github.com/minio/minio/pkg/color"
 )
 
 var ansiRE = regexp.MustCompile("(\x1b[^m]*m)")

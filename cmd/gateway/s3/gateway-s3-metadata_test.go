@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	minio "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd"
+	minio "github.com/minio/minio/cmd"
 )
 
 // Tests for GW metadata format validity.

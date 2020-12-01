@@ -30,14 +30,14 @@ import (
 	"strings"
 	"time"
 
-	xhttp "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/http"
-	xjwt "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/jwt"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
-	objectlock "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/object/lock"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/policy"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/hash"
-	iampolicy "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/iam/policy"
+	xhttp "github.com/minio/minio/cmd/http"
+	xjwt "github.com/minio/minio/cmd/jwt"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/auth"
+	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
+	"github.com/minio/minio/pkg/bucket/policy"
+	"github.com/minio/minio/pkg/hash"
+	iampolicy "github.com/minio/minio/pkg/iam/policy"
 )
 
 // Verify if request has JWT.

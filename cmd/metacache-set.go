@@ -29,9 +29,9 @@ import (
 	"sync"
 	"time"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/console"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/hash"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/console"
+	"github.com/minio/minio/pkg/hash"
 )
 
 type listPathOptions struct {

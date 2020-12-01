@@ -23,9 +23,9 @@ import (
 	"net/url"
 
 	"github.com/gorilla/mux"
-	xhttp "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/http"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/policy"
+	xhttp "github.com/minio/minio/cmd/http"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/bucket/policy"
 )
 
 // Data types used for returning dummy access control

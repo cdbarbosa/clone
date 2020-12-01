@@ -26,9 +26,9 @@ import (
 
 	minio "github.com/minio/minio-go/v7"
 	miniogo "github.com/minio/minio-go/v7"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone-go/v7/pkg/credentials"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/versioning"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/minio/minio/pkg/bucket/versioning"
+	"github.com/minio/minio/pkg/madmin"
 	sha256 "github.com/minio/sha256-simd"
 )
 

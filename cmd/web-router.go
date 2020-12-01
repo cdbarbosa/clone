@@ -23,10 +23,10 @@ import (
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/browser"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	jsonrpc "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/rpc"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/rpc/json2"
+	"github.com/minio/minio/browser"
+	"github.com/minio/minio/cmd/logger"
+	jsonrpc "github.com/minio/minio/pkg/rpc"
+	"github.com/minio/minio/pkg/rpc/json2"
 )
 
 // webAPI container for Web API.

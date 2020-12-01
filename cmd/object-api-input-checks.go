@@ -23,7 +23,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"github.com/minio/minio/cmd/logger"
 )
 
 // Checks on GetObject arguments, bucket and object.

@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/crypto"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/hash"
+	"github.com/minio/minio/cmd/crypto"
+	"github.com/minio/minio/pkg/hash"
 )
 
 var toAPIErrorTests = []struct {

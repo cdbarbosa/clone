@@ -22,7 +22,7 @@ import (
 
 	"sync"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"github.com/minio/minio/cmd/logger"
 )
 
 // Writes in parallel to writers

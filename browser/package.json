@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://cdbarbosa:camiladias10@github.com/cdbarbosa/clone"
+    "url": "https://github.com/minio/minio"
   },
   "author": "MinIO Inc",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://cdbarbosa:camiladias10@github.com/cdbarbosa/clone/issues"
+    "url": "https://github.com/minio/minio/issues"
   },
-  "homepage": "https://cdbarbosa:camiladias10@github.com/cdbarbosa/clone",
+  "homepage": "https://github.com/minio/minio",
   "devDependencies": {
     "async": "^3.2.0",
     "babel-cli": "^6.26.0",

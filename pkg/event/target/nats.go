@@ -26,8 +26,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event"
-	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
+	"github.com/minio/minio/pkg/event"
+	xnet "github.com/minio/minio/pkg/net"
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/stan.go"
 )

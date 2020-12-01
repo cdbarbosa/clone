@@ -17,7 +17,7 @@
 package cmd
 
 import (
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
+	"github.com/minio/minio/pkg/auth"
 )
 
 // GatewayMinioSysTmp prefix is used in Azure/GCS gateway for save metadata sent by Initialize Multipart Upload API.

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bandwidth"
+	"github.com/minio/minio/pkg/bandwidth"
 )
 
 const (

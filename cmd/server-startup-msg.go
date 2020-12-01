@@ -24,10 +24,10 @@ import (
 	"strings"
 
 	humanize "github.com/dustin/go-humanize"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	color "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/color"
-	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
+	"github.com/minio/minio/cmd/config"
+	"github.com/minio/minio/cmd/logger"
+	color "github.com/minio/minio/pkg/color"
+	xnet "github.com/minio/minio/pkg/net"
 )
 
 // Documentation links, these are part of message printing code.

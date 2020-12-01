@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/env"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event/target"
-	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
+	"github.com/minio/minio/cmd/config"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/env"
+	"github.com/minio/minio/pkg/event"
+	"github.com/minio/minio/pkg/event/target"
+	xnet "github.com/minio/minio/pkg/net"
 )
 
 const (

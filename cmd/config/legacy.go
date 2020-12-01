@@ -17,7 +17,7 @@
 
 package config
 
-import "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
+import "github.com/minio/minio/pkg/auth"
 
 //// One time migration code section
 

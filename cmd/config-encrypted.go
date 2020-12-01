@@ -23,10 +23,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	"github.com/minio/minio/cmd/config"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/auth"
+	"github.com/minio/minio/pkg/madmin"
 	etcd "go.etcd.io/etcd/v3/clientv3"
 )
 

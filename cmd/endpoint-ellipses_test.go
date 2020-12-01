@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/ellipses"
+	"github.com/minio/minio/pkg/ellipses"
 )
 
 // Tests create endpoints with ellipses and without.

@@ -29,11 +29,11 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	b "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/bandwidth"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
-	trace "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/trace"
+	"github.com/minio/minio/cmd/logger"
+	b "github.com/minio/minio/pkg/bucket/bandwidth"
+	"github.com/minio/minio/pkg/event"
+	"github.com/minio/minio/pkg/madmin"
+	trace "github.com/minio/minio/pkg/trace"
 	"github.com/tinylib/msgp/msgp"
 )
 

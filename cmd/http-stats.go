@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"github.com/minio/minio/cmd/logger"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

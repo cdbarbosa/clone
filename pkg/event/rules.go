@@ -19,7 +19,7 @@ package event
 import (
 	"strings"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/wildcard"
+	"github.com/minio/minio/pkg/wildcard"
 )
 
 // NewPattern - create new pattern for prefix/suffix.

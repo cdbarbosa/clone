@@ -21,11 +21,11 @@ import (
 	"context"
 	"sync"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger/message/log"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger/target/console"
-	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/pubsub"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/cmd/logger/message/log"
+	"github.com/minio/minio/cmd/logger/target/console"
+	xnet "github.com/minio/minio/pkg/net"
+	"github.com/minio/minio/pkg/pubsub"
 )
 
 // number of log messages to buffer

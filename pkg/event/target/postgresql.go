@@ -68,8 +68,8 @@ import (
 
 	_ "github.com/lib/pq" // Register postgres driver
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event"
-	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
+	"github.com/minio/minio/pkg/event"
+	xnet "github.com/minio/minio/pkg/net"
 )
 
 const (

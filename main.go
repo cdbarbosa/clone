@@ -18,19 +18,19 @@
 
 /*
  * Below main package has canonical imports for 'go get' and 'go build'
- * to work with all other clones of cdbarbosa:camiladias10@github.com/cdbarbosa/clone repository. For
+ * to work with all other clones of github.com/minio/minio repository. For
  * more information refer https://golang.org/doc/go1.4#canonicalimports
  */
 
-package main // import "cdbarbosa:camiladias10@github.com/cdbarbosa/clone"
+package main // import "github.com/minio/minio"
 
 import (
 	"os"
 
-	minio "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd"
+	minio "github.com/minio/minio/cmd"
 
 	// Import gateway
-	_ "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/gateway"
+	_ "github.com/minio/minio/cmd/gateway"
 )
 
 func main() {

@@ -31,11 +31,11 @@ import (
 	"strings"
 	"time"
 
-	xhttp "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/http"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/handlers"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	xhttp "github.com/minio/minio/cmd/http"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/auth"
+	"github.com/minio/minio/pkg/handlers"
+	"github.com/minio/minio/pkg/madmin"
 )
 
 const (

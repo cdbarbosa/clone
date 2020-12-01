@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/dsync"
+	"github.com/minio/minio/pkg/dsync"
 )
 
 // Tests lock rpc client.

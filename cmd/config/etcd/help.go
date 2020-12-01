@@ -16,7 +16,7 @@
 
 package etcd
 
-import "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
+import "github.com/minio/minio/cmd/config"
 
 // etcd config documented in default config
 var (

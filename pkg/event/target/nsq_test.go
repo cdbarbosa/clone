@@ -19,7 +19,7 @@ package target
 import (
 	"testing"
 
-	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
+	xnet "github.com/minio/minio/pkg/net"
 )
 
 func TestNSQArgs_Validate(t *testing.T) {

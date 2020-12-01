@@ -16,7 +16,7 @@
 
 package cmd
 
-import "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/versioning"
+import "github.com/minio/minio/pkg/bucket/versioning"
 
 // BucketVersioningSys - policy subsystem.
 type BucketVersioningSys struct{}

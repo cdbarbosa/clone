@@ -24,7 +24,7 @@ import (
 	"strings"
 
 	humanize "github.com/dustin/go-humanize"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"github.com/minio/minio/cmd/logger"
 )
 
 const (

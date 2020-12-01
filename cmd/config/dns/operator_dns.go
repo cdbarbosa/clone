@@ -31,8 +31,8 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
-	xhttp "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/http"
+	"github.com/minio/minio/cmd/config"
+	xhttp "github.com/minio/minio/cmd/http"
 )
 
 var (

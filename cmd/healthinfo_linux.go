@@ -25,8 +25,8 @@ import (
 	"strings"
 	"syscall"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/smart"
+	"github.com/minio/minio/pkg/madmin"
+	"github.com/minio/minio/pkg/smart"
 	diskhw "github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/host"
 )

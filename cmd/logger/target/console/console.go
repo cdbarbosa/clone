@@ -22,10 +22,10 @@ import (
 	"strings"
 	"time"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger/message/log"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/color"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/console"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/cmd/logger/message/log"
+	"github.com/minio/minio/pkg/color"
+	"github.com/minio/minio/pkg/console"
 )
 
 // Target implements loggerTarget to send log

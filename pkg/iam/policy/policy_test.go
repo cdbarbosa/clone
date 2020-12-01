@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/minio/minio-go/v7/pkg/set"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/policy"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/policy/condition"
+	"github.com/minio/minio/pkg/bucket/policy"
+	"github.com/minio/minio/pkg/bucket/policy/condition"
 )
 
 func TestGetPoliciesFromClaims(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 	"errors"
 
 	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/sync/errgroup"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/sync/errgroup"
 )
 
 // list all errors that can be ignore in a bucket operation.

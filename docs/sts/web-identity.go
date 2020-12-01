@@ -37,7 +37,7 @@ import (
 
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
+	"github.com/minio/minio/pkg/auth"
 )
 
 // AssumedRoleUser - The identifiers for the temporary security credentials that

@@ -30,11 +30,11 @@ import (
 	"strings"
 	"sync"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/s3select/csv"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/s3select/json"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/s3select/parquet"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/s3select/simdj"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/s3select/sql"
+	"github.com/minio/minio/pkg/s3select/csv"
+	"github.com/minio/minio/pkg/s3select/json"
+	"github.com/minio/minio/pkg/s3select/parquet"
+	"github.com/minio/minio/pkg/s3select/simdj"
+	"github.com/minio/minio/pkg/s3select/sql"
 	"github.com/minio/simdjson-go"
 )
 

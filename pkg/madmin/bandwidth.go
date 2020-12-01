@@ -25,7 +25,7 @@ import (
 	"net/url"
 	"strings"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bandwidth"
+	"github.com/minio/minio/pkg/bandwidth"
 )
 
 // GetBucketBandwidth - Get a snapshot of the bandwidth measurements for replication buckets. If no buckets

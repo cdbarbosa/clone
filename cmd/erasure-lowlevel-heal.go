@@ -20,7 +20,7 @@ import (
 	"context"
 	"io"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"github.com/minio/minio/cmd/logger"
 )
 
 // Heal heals the shard files on non-nil writers. Note that the quorum passed is 1

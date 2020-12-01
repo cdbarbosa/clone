@@ -22,7 +22,7 @@ import (
 	"sync"
 	"testing"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/dsync"
+	"github.com/minio/minio/pkg/dsync"
 )
 
 // Helper function to create a lock server for testing

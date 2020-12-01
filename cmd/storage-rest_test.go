@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
-	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
+	"github.com/minio/minio/cmd/config"
+	xnet "github.com/minio/minio/pkg/net"
 )
 
 ///////////////////////////////////////////////////////////////////////////////

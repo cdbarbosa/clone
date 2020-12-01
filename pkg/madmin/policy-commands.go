@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"net/url"
 
-	iampolicy "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/iam/policy"
+	iampolicy "github.com/minio/minio/pkg/iam/policy"
 )
 
 // InfoCannedPolicy - expand canned policy into JSON structure.

@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"strconv"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/env"
-	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
+	"github.com/minio/minio/cmd/config"
+	"github.com/minio/minio/pkg/env"
+	xnet "github.com/minio/minio/pkg/net"
 )
 
 const (

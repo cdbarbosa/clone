@@ -24,7 +24,7 @@ import (
 	"path"
 	"testing"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/lock"
+	"github.com/minio/minio/pkg/lock"
 )
 
 func TestFSRenameFile(t *testing.T) {

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/wildcard"
+	"github.com/minio/minio/pkg/wildcard"
 )
 
 // DestinationARNPrefix - destination ARN prefix as per AWS S3 specification.

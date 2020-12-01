@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
+	"github.com/minio/minio/cmd/config"
 )
 
 func TestServerConfig(t *testing.T) {

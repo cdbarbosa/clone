@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/dsync"
+	"github.com/minio/minio/pkg/dsync"
 )
 
 const (

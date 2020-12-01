@@ -25,10 +25,10 @@ import (
 	"net/url"
 	"time"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/disk"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
+	"github.com/minio/minio/pkg/disk"
+	"github.com/minio/minio/pkg/net"
 
-	smart "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/smart"
+	smart "github.com/minio/minio/pkg/smart"
 	"github.com/shirou/gopsutil/cpu"
 	diskhw "github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/host"

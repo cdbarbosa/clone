@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/color"
+	"github.com/minio/minio/pkg/color"
 )
 
 // Prints the formatted startup message.

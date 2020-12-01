@@ -23,7 +23,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"github.com/minio/minio/cmd/logger"
 )
 
 var errHealRequired = errors.New("heal required")

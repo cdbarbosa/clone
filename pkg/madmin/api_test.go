@@ -21,7 +21,7 @@ package madmin_test
 import (
 	"testing"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	"github.com/minio/minio/pkg/madmin"
 )
 
 func TestMinioAdminClient(t *testing.T) {

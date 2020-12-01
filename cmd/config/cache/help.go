@@ -16,7 +16,7 @@
 
 package cache
 
-import "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
+import "github.com/minio/minio/cmd/config"
 
 // Help template for caching feature.
 var (

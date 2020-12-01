@@ -25,8 +25,8 @@ import (
 	"sort"
 	"sync"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/sys"
+	"github.com/minio/minio/pkg/event"
+	"github.com/minio/minio/pkg/sys"
 )
 
 const (

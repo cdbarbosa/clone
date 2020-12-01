@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	"github.com/minio/minio/pkg/madmin"
 )
 
 // Tests for if parent directory is object

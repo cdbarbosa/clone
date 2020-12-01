@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bpool"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/color"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/dsync"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/sync/errgroup"
+	"github.com/minio/minio/cmd/logger"
+	"github.com/minio/minio/pkg/bpool"
+	"github.com/minio/minio/pkg/color"
+	"github.com/minio/minio/pkg/dsync"
+	"github.com/minio/minio/pkg/madmin"
+	"github.com/minio/minio/pkg/sync/errgroup"
 )
 
 // OfflineDisk represents an unavailable disk.

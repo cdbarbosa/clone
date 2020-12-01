@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"testing"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"github.com/minio/minio/cmd/logger"
 )
 
 func TestKeyValueMap(t *testing.T) {

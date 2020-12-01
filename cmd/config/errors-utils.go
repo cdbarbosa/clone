@@ -22,7 +22,7 @@ import (
 	"net"
 	"syscall"
 
-	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/color"
+	"github.com/minio/minio/pkg/color"
 )
 
 // Err is a structure which contains all information
