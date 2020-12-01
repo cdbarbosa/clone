@@ -16,7 +16,7 @@
 
 import React from "react"
 import { connect } from "react-redux"
-import logo from "../../img/logo.svg"
+import logo from "../../img/favicon/hp-logo-blue.png"
 import Alert from "../alert/Alert"
 import * as actionsAlert from "../alert/actions"
 import InputGroup from "./InputGroup"

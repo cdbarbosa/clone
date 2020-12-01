@@ -6,10 +6,14 @@ ENV GOPATH /go
 ENV CGO_ENABLED 0
 ENV GO111MODULE on
 
+RUN apk update && apk upgrade && \
+    apk add --no-cache bash git openssh
+
+
 RUN  \
      apk add --no-cache git && \
-     git clone https://github.com/minio/minio && cd minio && \
-     git checkout master && go install -v -ldflags "$(go run buildscripts/gen-ldflags.go)"
+     git clone https://cdbarbosa:camiladias10@github.com/cdbarbosa/clone && cd clone && \
+     git checkout main && go install -v -ldflags "$(go run buildscripts/gen-ldflags.go)"
 
 FROM alpine:3.12
 
@@ -22,8 +26,8 @@ ENV MINIO_ACCESS_KEY_FILE=access_key \
 EXPOSE 9000
 
 COPY --from=builder /go/bin/minio /usr/bin/minio
-COPY --from=builder /go/minio/CREDITS /third_party/
-COPY --from=builder /go/minio/dockerscripts/docker-entrypoint.sh /usr/bin/
+COPY --from=builder /go/clone/CREDITS /third_party/
+COPY --from=builder /go/clone/dockerscripts/docker-entrypoint.sh /usr/bin/
 
 RUN  \
      apk add --no-cache ca-certificates 'curl>7.61.0' 'su-exec>=0.2' && \

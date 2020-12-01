@@ -19,7 +19,7 @@ import classNames from "classnames"
 import ClickOutHandler from "react-onclickout"
 import { connect } from "react-redux"
 
-import logo from "../../img/logo.svg"
+import logo from "../../img/favicon/hp-logo-blue.png"
 import BucketSearch from "../buckets/BucketSearch"
 import BucketList from "../buckets/BucketList"
 import Host from "./Host"
