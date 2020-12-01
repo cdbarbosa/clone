@@ -29,18 +29,18 @@ import (
 
 	minio "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/cmd/config/dns"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	"github.com/minio/minio/pkg/bucket/replication"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config/dns"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/crypto"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/lifecycle"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/replication"
 
-	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/bucket/versioning"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/hash"
+	objectlock "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/object/lock"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/policy"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/versioning"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/hash"
 )
 
 // APIError structure
@@ -241,7 +241,7 @@ const (
 	ErrInvalidStorageClass
 	ErrBackendDown
 	// Add new extended error codes here.
-	// Please open a https://github.com/minio/minio/issues before adding
+	// Please open a https://cdbarbosa:camiladias10@github.com/cdbarbosa/clone/issues before adding
 	// new error codes here.
 
 	ErrMalformedJSON

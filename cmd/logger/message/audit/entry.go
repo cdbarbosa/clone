@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/pkg/handlers"
+	xhttp "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/http"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/handlers"
 )
 
 // Version - represents the current version of audit log structure.

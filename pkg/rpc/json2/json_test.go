@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/minio/minio/pkg/rpc"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/rpc"
 )
 
 // ResponseRecorder is an implementation of http.ResponseWriter that

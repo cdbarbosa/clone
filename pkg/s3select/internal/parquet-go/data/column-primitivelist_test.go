@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/schema"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/s3select/internal/parquet-go/gen-go/parquet"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/s3select/internal/parquet-go/schema"
 )
 
 func TestPopulatePrimitiveList(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"time"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
 )
 
 // XL constants.

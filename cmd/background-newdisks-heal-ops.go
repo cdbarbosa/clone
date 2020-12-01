@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/minio/minio/pkg/dsync"
+	. "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/dsync"
 )
 
 const (

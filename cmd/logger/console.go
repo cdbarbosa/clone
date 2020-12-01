@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/cmd/logger/message/log"
-	"github.com/minio/minio/pkg/color"
-	c "github.com/minio/minio/pkg/console"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger/message/log"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/color"
+	c "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/console"
 )
 
 // Logger interface describes the methods that need to be implemented to satisfy the interface requirements.

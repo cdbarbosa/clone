@@ -24,10 +24,10 @@ import (
 	"sort"
 	"time"
 
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/bucket/replication"
-	"github.com/minio/minio/pkg/sync/errgroup"
+	xhttp "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/http"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/replication"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/sync/errgroup"
 	"github.com/minio/sha256-simd"
 )
 

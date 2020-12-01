@@ -23,11 +23,11 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/env"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/env"
+	iampolicy "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/iam/policy"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
 )
 
 const (

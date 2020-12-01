@@ -35,17 +35,17 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/logger/message/log"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/handlers"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
-	xnet "github.com/minio/minio/pkg/net"
-	trace "github.com/minio/minio/pkg/trace"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/crypto"
+	xhttp "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/http"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger/message/log"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/handlers"
+	iampolicy "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/iam/policy"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
+	trace "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/trace"
 )
 
 const (

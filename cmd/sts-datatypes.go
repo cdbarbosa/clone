@@ -19,7 +19,7 @@ package cmd
 import (
 	"encoding/xml"
 
-	"github.com/minio/minio/pkg/auth"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
 )
 
 // AssumedRoleUser - The identifiers for the temporary security credentials that

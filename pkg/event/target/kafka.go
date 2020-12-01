@@ -27,8 +27,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/minio/minio/pkg/event"
-	xnet "github.com/minio/minio/pkg/net"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event"
+	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
 
 	sarama "github.com/Shopify/sarama"
 	saramatls "github.com/Shopify/sarama/tools/tls"

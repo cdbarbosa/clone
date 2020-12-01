@@ -28,9 +28,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/dsync"
-	"github.com/minio/minio/pkg/lsync"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/dsync"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/lsync"
 )
 
 // local lock servers
@@ -266,7 +266,7 @@ func getSource(n int) string {
 	if ok {
 		filename = pathutil.Base(filename)
 		funcName = strings.TrimPrefix(runtime.FuncForPC(pc).Name(),
-			"github.com/minio/minio/cmd.")
+			"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd.")
 	} else {
 		filename = "<unknown>"
 		lineNum = 0

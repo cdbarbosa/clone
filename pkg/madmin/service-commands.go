@@ -24,7 +24,7 @@ import (
 	"net/url"
 	"strconv"
 
-	trace "github.com/minio/minio/pkg/trace"
+	trace "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/trace"
 )
 
 // ServiceRestart - restarts the MinIO cluster

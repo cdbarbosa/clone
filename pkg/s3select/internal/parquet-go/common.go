@@ -17,7 +17,7 @@
 package parquet
 
 import (
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/s3select/internal/parquet-go/gen-go/parquet"
 )
 
 func valuesToInterfaces(values interface{}, valueType parquet.Type) (tableValues []interface{}) {

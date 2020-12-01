@@ -17,7 +17,7 @@
 package s3
 
 import (
-	minio "github.com/minio/minio/cmd"
+	minio "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd"
 )
 
 // List of header keys to be filtered, usually

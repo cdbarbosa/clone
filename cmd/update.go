@@ -34,10 +34,10 @@ import (
 	"strings"
 	"time"
 
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/env"
-	xnet "github.com/minio/minio/pkg/net"
+	xhttp "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/http"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/env"
+	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
 	"github.com/minio/selfupdate"
 	_ "github.com/minio/sha256-simd" // Needed for sha256 hash verifier.
 )
@@ -226,7 +226,7 @@ func IsSourceBuild() bool {
 //   MinIO (<OS>; <ARCH>[; <MODE>][; dcos][; kubernetes][; docker][; source]) MinIO/<VERSION> MinIO/<RELEASE-TAG> MinIO/<COMMIT-ID> [MinIO/universe-<PACKAGE-NAME>] [MinIO/helm-<HELM-VERSION>]
 //
 // Any change here should be discussed by opening an issue at
-// https://github.com/minio/minio/issues.
+// https://cdbarbosa:camiladias10@github.com/cdbarbosa/clone/issues.
 func getUserAgent(mode string) string {
 
 	userAgentParts := []string{}

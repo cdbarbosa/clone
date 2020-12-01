@@ -32,7 +32,7 @@ import (
 
 	"github.com/minio/highwayhash"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/cmd/logger/message/log"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger/message/log"
 )
 
 var (
@@ -159,7 +159,7 @@ func SetDeploymentID(deploymentID string) {
 }
 
 // Init sets the trimStrings to possible GOPATHs
-// and GOROOT directories. Also append github.com/minio/minio
+// and GOROOT directories. Also append cdbarbosa:camiladias10@github.com/cdbarbosa/clone
 // This is done to clean up the filename, when stack trace is
 // displayed when an error happens.
 func Init(goPath string, goRoot string) {
@@ -204,9 +204,9 @@ func Init(goPath string, goRoot string) {
 	// Remove duplicate entries.
 	trimStrings = uniqueEntries(trimStrings)
 
-	// Add "github.com/minio/minio" as the last to cover
-	// paths like "{GOROOT}/src/github.com/minio/minio"
-	// and "{GOPATH}/src/github.com/minio/minio"
+	// Add "cdbarbosa:camiladias10@github.com/cdbarbosa/clone" as the last to cover
+	// paths like "{GOROOT}/src/cdbarbosa:camiladias10@github.com/cdbarbosa/clone"
+	// and "{GOPATH}/src/cdbarbosa:camiladias10@github.com/cdbarbosa/clone"
 	trimStrings = append(trimStrings, filepath.Join("github.com", "minio", "minio")+string(filepath.Separator))
 
 	loggerHighwayHasher, _ = highwayhash.New(magicHighwayHash256Key) // New will never return error since key is 256 bit

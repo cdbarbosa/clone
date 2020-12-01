@@ -19,7 +19,7 @@ package cmd
 import (
 	"runtime/debug"
 
-	"github.com/minio/minio/pkg/sys"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/sys"
 )
 
 func setMaxResources() (err error) {

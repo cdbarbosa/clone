@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/minio/minio/pkg/lock"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/lock"
 )
 
 // Tests long path calls.

@@ -21,7 +21,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	xnet "github.com/minio/minio/pkg/net"
+	xnet "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/net"
 )
 
 type errorValidator struct{}

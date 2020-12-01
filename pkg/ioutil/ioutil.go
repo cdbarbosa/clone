@@ -23,7 +23,7 @@ import (
 	"os"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/pkg/disk"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/disk"
 )
 
 // defaultAppendBufferSize - Default buffer size for the AppendFile

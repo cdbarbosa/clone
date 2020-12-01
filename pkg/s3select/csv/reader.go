@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"sync"
 
-	csv "github.com/minio/minio/pkg/csvparser"
-	"github.com/minio/minio/pkg/s3select/sql"
+	csv "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/csvparser"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/s3select/sql"
 )
 
 // Reader - CSV record reader for S3Select.

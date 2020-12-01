@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/minio/minio/pkg/event"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event"
 )
 
 // TestDir

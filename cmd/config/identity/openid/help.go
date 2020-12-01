@@ -16,7 +16,7 @@
 
 package openid
 
-import "github.com/minio/minio/cmd/config"
+import "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
 
 // Help template for OpenID identity feature.
 var (

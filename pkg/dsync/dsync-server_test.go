@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	. "github.com/minio/minio/pkg/dsync"
+	. "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/dsync"
 )
 
 const WriteLock = -1

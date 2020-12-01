@@ -17,7 +17,7 @@
 package storageclass
 
 import (
-	"github.com/minio/minio/cmd/config"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
 )
 
 // SetStorageClass - One time migration code needed, for migrating from older config to new for StorageClass.

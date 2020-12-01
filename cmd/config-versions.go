@@ -19,19 +19,19 @@ package cmd
 import (
 	"sync"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/config/cache"
-	"github.com/minio/minio/cmd/config/compress"
-	xldap "github.com/minio/minio/cmd/config/identity/ldap"
-	"github.com/minio/minio/cmd/config/identity/openid"
-	"github.com/minio/minio/cmd/config/notify"
-	"github.com/minio/minio/cmd/config/policy/opa"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/event/target"
-	"github.com/minio/minio/pkg/quick"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config/cache"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config/compress"
+	xldap "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config/identity/ldap"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config/identity/openid"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config/notify"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config/policy/opa"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/config/storageclass"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/crypto"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event/target"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/quick"
 )
 
 /////////////////// Config V1 ///////////////////

@@ -24,16 +24,16 @@ import (
 	"sync"
 
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/cmd/logger"
-	bucketsse "github.com/minio/minio/pkg/bucket/encryption"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/bucket/replication"
-	"github.com/minio/minio/pkg/bucket/versioning"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	bucketsse "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/encryption"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/lifecycle"
+	objectlock "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/object/lock"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/policy"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/replication"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/versioning"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/event"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/sync/errgroup"
 )
 
 // BucketMetadataSys captures all bucket metadata for a given cluster.

@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
 
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/handlers"
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/policy"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/handlers"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/sync/errgroup"
 )
 
 func concurrentDecryptETag(ctx context.Context, objects []ObjectInfo) {

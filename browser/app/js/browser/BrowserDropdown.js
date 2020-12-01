@@ -88,7 +88,7 @@ export class BrowserDropdown extends React.Component {
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://github.com/minio/minio">
+              <a target="_blank" href="https://cdbarbosa:camiladias10@github.com/cdbarbosa/clone">
                 GitHub <i className="fab fa-github" />
               </a>
             </li>

@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/minio/minio/pkg/certs"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/certs"
 )
 
 func TestNewServer(t *testing.T) {

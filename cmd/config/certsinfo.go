@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"strings"
 
-	color "github.com/minio/minio/pkg/color"
+	color "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/color"
 )
 
 // Extra ASN1 OIDs that we may need to handle

@@ -29,10 +29,10 @@ import (
 
 	jwtgo "github.com/dgrijalva/jwt-go"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd/logger"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
+	iampolicy "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/iam/policy"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
 	etcd "go.etcd.io/etcd/v3/clientv3"
 	"go.etcd.io/etcd/v3/mvcc/mvccpb"
 )
@@ -505,7 +505,7 @@ func (ies *IAMEtcdStore) loadAll(ctx context.Context, sys *IAMSys) error {
 	defer ies.Unlock()
 
 	// Merge the new reloaded entries into global map.
-	// See issue https://github.com/minio/minio/issues/9651
+	// See issue https://cdbarbosa:camiladias10@github.com/cdbarbosa/clone/issues/9651
 	// where the present list of entries on disk are not yet
 	// latest, there is a small window where this can make
 	// valid users invalid.

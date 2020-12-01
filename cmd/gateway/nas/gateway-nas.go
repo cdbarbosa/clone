@@ -20,8 +20,8 @@ import (
 	"context"
 
 	"github.com/minio/cli"
-	minio "github.com/minio/minio/cmd"
-	"github.com/minio/minio/pkg/auth"
+	minio "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/cmd"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/auth"
 )
 
 func init() {

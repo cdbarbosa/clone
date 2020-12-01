@@ -1,4 +1,4 @@
-module github.com/minio/minio
+module cdbarbosa:camiladias10@github.com/cdbarbosa/clone
 
 go 1.14
 

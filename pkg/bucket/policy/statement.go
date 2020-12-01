@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/minio/minio/pkg/bucket/policy/condition"
+	"cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/bucket/policy/condition"
 )
 
 // Statement - policy statement.

@@ -16,7 +16,7 @@ package main
 import (
     "fmt"
 
-    "github.com/minio/minio/pkg/madmin"
+    "cdbarbosa:camiladias10@github.com/cdbarbosa/clone/pkg/madmin"
 )
 
 func main() {
