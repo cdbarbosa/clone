@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/cdbarbosa/clone/pkg/madmin"
 )
 
 // healTask represents what to heal along with options
