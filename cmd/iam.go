@@ -30,11 +30,11 @@ import (
 
 	humanize "github.com/dustin/go-humanize"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/cdbarbosa/clone/cmd/config"
+	"github.com/cdbarbosa/clone/cmd/logger"
+	"github.com/cdbarbosa/clone/pkg/auth"
+	iampolicy "github.com/cdbarbosa/clone/pkg/iam/policy"
+	"github.com/cdbarbosa/clone/pkg/madmin"
 )
 
 // UsersSysType - defines the type of users and groups system that is

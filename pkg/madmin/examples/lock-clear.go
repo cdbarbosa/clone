@@ -24,7 +24,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/cdbarbosa/clone/pkg/madmin"
 )
 
 func main() {

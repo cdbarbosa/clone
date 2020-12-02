@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
+	"github.com/cdbarbosa/clone/cmd/logger"
 )
 
 // listPath will return the requested entries.

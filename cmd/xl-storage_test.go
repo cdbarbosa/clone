@@ -30,8 +30,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/pkg/disk"
+	"github.com/cdbarbosa/clone/cmd/config/storageclass"
+	"github.com/cdbarbosa/clone/pkg/disk"
 )
 
 func TestCheckPathLength(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/pkg/bandwidth"
-	"github.com/minio/minio/pkg/pubsub"
+	"github.com/cdbarbosa/clone/pkg/bandwidth"
+	"github.com/cdbarbosa/clone/pkg/pubsub"
 )
 
 // throttleBandwidth gets the throttle for bucket with the configured value

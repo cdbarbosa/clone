@@ -1,4 +1,4 @@
-# MinIO Contribution Guide [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/)
+# MinIO Contribution Guide [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/cdbarbosa/clone/)
 
 ``MinIO`` community welcomes your contribution. To make the process as seamless as possible, we recommend you read this contribution guide.
 
@@ -7,7 +7,7 @@
 Start by forking the MinIO GitHub repository, make changes in a branch and then send a pull request. We encourage pull requests to discuss code changes. Here are the steps in details:
 
 ### Setup your MinIO GitHub Repository
-Fork [MinIO upstream](https://github.com/minio/minio/fork) source repository to your own personal repository. Copy the URL of your MinIO fork (you will need it for the `git clone` command below).
+Fork [MinIO upstream](https://github.com/cdbarbosa/clone/fork) source repository to your own personal repository. Copy the URL of your MinIO fork (you will need it for the `git clone` command below).
 
 ```sh
 $ git clone https://github.com/minio/minio

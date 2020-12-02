@@ -1,4 +1,4 @@
-# 使用Docker Compose部署MinIO [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io)  [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/)
+# 使用Docker Compose部署MinIO [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io)  [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/cdbarbosa/clone/)
 
 Docker Compose允许定义和运行单主机，多容器Docker应用程序。
 
@@ -11,7 +11,7 @@ Docker Compose允许定义和运行单主机，多容器Docker应用程序。
 
 ## 2. 在Docker Compose上运行分布式MinIO
 
-在Docker Compose上部署分布式MinIO,请下载[docker-compose.yaml](https://github.com/minio/minio/blob/master/docs/orchestration/docker-compose/docker-compose.yaml?raw=true)到你的当前工作目录。Docker Compose会pull MinIO Docker Image,所以你不需要手动去下载MinIO binary。然后运行下面的命令
+在Docker Compose上部署分布式MinIO,请下载[docker-compose.yaml](https://github.com/cdbarbosa/clone/blob/master/docs/orchestration/docker-compose/docker-compose.yaml?raw=true)到你的当前工作目录。Docker Compose会pull MinIO Docker Image,所以你不需要手动去下载MinIO binary。然后运行下面的命令
 
 ### GNU/Linux and macOS
 
@@ -31,7 +31,7 @@ docker-compose.exe up
 
 ### 注意事项
 
-* 默认情况下Docker Compose file使用的是最新版的MinIO server的Docker镜像，你可以修改image tag来拉取指定版本的[MinIO Docker image](https://hub.docker.com/r/minio/minio/).
+* 默认情况下Docker Compose file使用的是最新版的MinIO server的Docker镜像，你可以修改image tag来拉取指定版本的[MinIO Docker image](https://hub.docker.com/r/cdbarbosa/clone/).
 
 * 默认情况下会创建4个minio实例，你可以添加更多的MinIO服务（最多总共16个）到你的MinIO Comose deployment。添加一个服务
   * 复制服务定义并适当地更改新服务的名称。

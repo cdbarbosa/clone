@@ -23,24 +23,24 @@ import (
 	"time"
 
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/pkg/bucket/bandwidth"
+	"github.com/cdbarbosa/clone/pkg/bucket/bandwidth"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/config/cache"
-	"github.com/minio/minio/cmd/config/compress"
-	"github.com/minio/minio/cmd/config/dns"
-	xldap "github.com/minio/minio/cmd/config/identity/ldap"
-	"github.com/minio/minio/cmd/config/identity/openid"
-	"github.com/minio/minio/cmd/config/policy/opa"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/pkg/auth"
+	"github.com/cdbarbosa/clone/cmd/config/cache"
+	"github.com/cdbarbosa/clone/cmd/config/compress"
+	"github.com/cdbarbosa/clone/cmd/config/dns"
+	xldap "github.com/cdbarbosa/clone/cmd/config/identity/ldap"
+	"github.com/cdbarbosa/clone/cmd/config/identity/openid"
+	"github.com/cdbarbosa/clone/cmd/config/policy/opa"
+	"github.com/cdbarbosa/clone/cmd/config/storageclass"
+	"github.com/cdbarbosa/clone/cmd/crypto"
+	xhttp "github.com/cdbarbosa/clone/cmd/http"
+	"github.com/cdbarbosa/clone/pkg/auth"
 	etcd "go.etcd.io/etcd/v3/clientv3"
 
-	"github.com/minio/minio/pkg/certs"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/pubsub"
+	"github.com/cdbarbosa/clone/pkg/certs"
+	"github.com/cdbarbosa/clone/pkg/event"
+	"github.com/cdbarbosa/clone/pkg/pubsub"
 )
 
 // minio configuration related constants.

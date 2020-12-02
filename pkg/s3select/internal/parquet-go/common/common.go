@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 
 	"github.com/klauspost/compress/snappy"
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
+	"github.com/cdbarbosa/clone/pkg/s3select/internal/parquet-go/gen-go/parquet"
 	"github.com/pierrec/lz4"
 )
 

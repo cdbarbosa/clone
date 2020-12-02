@@ -19,8 +19,8 @@ import (
 	"encoding/base64"
 	"errors"
 
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
+	xhttp "github.com/cdbarbosa/clone/cmd/http"
+	"github.com/cdbarbosa/clone/cmd/logger"
 )
 
 // IsMultiPart returns true if the object metadata indicates

@@ -23,10 +23,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/bucket/policy/condition"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/cdbarbosa/clone/pkg/bucket/policy"
+	"github.com/cdbarbosa/clone/pkg/bucket/policy/condition"
+	iampolicy "github.com/cdbarbosa/clone/pkg/iam/policy"
+	"github.com/cdbarbosa/clone/pkg/madmin"
 )
 
 func main() {

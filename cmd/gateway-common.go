@@ -23,12 +23,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/cmd/config"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/env"
-	"github.com/minio/minio/pkg/hash"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/cdbarbosa/clone/cmd/config"
+	xhttp "github.com/cdbarbosa/clone/cmd/http"
+	"github.com/cdbarbosa/clone/cmd/logger"
+	"github.com/cdbarbosa/clone/pkg/env"
+	"github.com/cdbarbosa/clone/pkg/hash"
+	xnet "github.com/cdbarbosa/clone/pkg/net"
 
 	minio "github.com/minio/minio-go/v7"
 )

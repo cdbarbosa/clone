@@ -42,7 +42,7 @@ lint:
 
 ruleguard:
 	@echo "Running $@ check"
-	@${GOPATH}/bin/ruleguard -rules ruleguard.rules.go github.com/minio/minio/...
+	@${GOPATH}/bin/ruleguard -rules ruleguard.rules.go github.com/cdbarbosa/clone/...
 
 # Builds minio, runs the verifiers then runs the tests.
 check: test

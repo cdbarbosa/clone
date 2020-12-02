@@ -26,8 +26,8 @@ import (
 	"strings"
 
 	"github.com/bcicen/jstream"
-	csv "github.com/minio/minio/pkg/csvparser"
-	"github.com/minio/minio/pkg/s3select/sql"
+	csv "github.com/cdbarbosa/clone/pkg/csvparser"
+	"github.com/cdbarbosa/clone/pkg/s3select/sql"
 )
 
 // RawJSON is a byte-slice that contains valid JSON

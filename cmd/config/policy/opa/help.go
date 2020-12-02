@@ -16,7 +16,7 @@
 
 package opa
 
-import "github.com/minio/minio/cmd/config"
+import "github.com/cdbarbosa/clone/cmd/config"
 
 // Help template for OPA policy feature.
 var (

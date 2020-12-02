@@ -19,7 +19,7 @@ minio gateway nas /shared/nasvol
 ## 使用浏览器进行验证
 使用你的浏览器访问`http://127.0.0.1:9000`,如果能访问，恭喜你，启动成功了。
 
-![Screenshot](https://raw.githubusercontent.com/minio/minio/master/docs/screenshots/minio-browser-gateway.png)
+![Screenshot](https://raw.githubusercontent.com/cdbarbosa/clone/master/docs/screenshots/minio-browser-gateway.png)
 
 ## 使用`mc`进行验证
 `mc`为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。

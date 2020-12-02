@@ -16,7 +16,7 @@
 
 package logger
 
-import "github.com/minio/minio/cmd/config"
+import "github.com/cdbarbosa/clone/cmd/config"
 
 // Help template for logger http and audit
 var (

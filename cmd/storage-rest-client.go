@@ -30,11 +30,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/cmd/http"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/rest"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/cdbarbosa/clone/cmd/http"
+	xhttp "github.com/cdbarbosa/clone/cmd/http"
+	"github.com/cdbarbosa/clone/cmd/logger"
+	"github.com/cdbarbosa/clone/cmd/rest"
+	xnet "github.com/cdbarbosa/clone/pkg/net"
 	"github.com/tinylib/msgp/msgp"
 )
 

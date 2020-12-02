@@ -1,4 +1,4 @@
-# 存储桶版本控制指南 [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/)
+# 存储桶版本控制指南 [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/cdbarbosa/clone/)
 
 MinIO的版本控制，可以让一个存储通里的某个对象具有多个版本。例如，你可以存储`spark.csv` (版本为 `ede336f2`) 和 `spark.csv` (版本为 `fae684da`)在一个存储通中。版本控制保护你免受意外覆盖、删除、应用保留策略和存档对象的影响。
 
@@ -10,25 +10,25 @@ MinIO的版本控制，可以让一个存储通里的某个对象具有多个版
 
 当您在启用版本控制的存储桶中PUT一个对象时，非当前版本不会被覆盖。下图显示，当将新版本的`spark.csv`放入已经包含相同名称对象的存储桶中时，原始对象（ID = `ede336f2`）保留在存储桶中，MinIO生成新版本（ID = `fae684da`），并将新版本添加到存储桶中。
 
-![put](https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/bucket/versioning/versioning_PUT_versionEnabled.png)
+![put](https://raw.githubusercontent.com/cdbarbosa/clone/master/docs/zh_CN/bucket/versioning/versioning_PUT_versionEnabled.png)
 
 这意味着对对象的意外覆盖或删除进行了保护，允许检索对象的先前版本。
 
 删除对象时，所有版本都保留在存储桶中，MinIO添加删除标记，如下所示：
 
-![delete](https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/bucket/versioning/versioning_DELETE_versionEnabled.png)
+![delete](https://raw.githubusercontent.com/cdbarbosa/clone/master/docs/zh_CN/bucket/versioning/versioning_DELETE_versionEnabled.png)
 
 现在，删除标记成为对象的当前版本。默认情况下，GET请求始终检索最新的存储版本。因此，当当前版本为删除标记时，执行简单的GET对象请求将返回`404` `The specified key does not exist`，如下所示：
 
-![get](https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/bucket/versioning/versioning_GET_versionEnabled.png)
+![get](https://raw.githubusercontent.com/cdbarbosa/clone/master/docs/zh_CN/bucket/versioning/versioning_GET_versionEnabled.png)
 
 通过指定如下所示的版本ID进行GET请求，你可以检索特定的对象版本`fae684da`。
 
-![get_version_id](https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/bucket/versioning/versioning_GET_versionEnabled_id.png)
+![get_version_id](https://raw.githubusercontent.com/cdbarbosa/clone/master/docs/zh_CN/bucket/versioning/versioning_GET_versionEnabled_id.png)
 
 要永久删除对象，你需要指定要删除的版本，只有具有适当权限的用户才能永久删除版本。如下所示，使用特定版本ID调用的DELETE请求从存储桶中永久删除一个对象。带版本id的DELETE请求不会添加删除标记。
 
-![delete_version_id](https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/bucket/versioning/versioning_DELETE_versionEnabled_id.png)
+![delete_version_id](https://raw.githubusercontent.com/cdbarbosa/clone/master/docs/zh_CN/bucket/versioning/versioning_DELETE_versionEnabled_id.png)
 
 ## 概念
 - MinIO上的所有存储桶始终处于以下状态之一：无版本控制（默认），启用版本控制或暂停版本控制。

@@ -28,15 +28,15 @@ import (
 
 	miniogo "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	sse "github.com/minio/minio/pkg/bucket/encryption"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/hash"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/s3select"
+	"github.com/cdbarbosa/clone/cmd/crypto"
+	xhttp "github.com/cdbarbosa/clone/cmd/http"
+	"github.com/cdbarbosa/clone/cmd/logger"
+	sse "github.com/cdbarbosa/clone/pkg/bucket/encryption"
+	"github.com/cdbarbosa/clone/pkg/bucket/lifecycle"
+	"github.com/cdbarbosa/clone/pkg/event"
+	"github.com/cdbarbosa/clone/pkg/hash"
+	"github.com/cdbarbosa/clone/pkg/madmin"
+	"github.com/cdbarbosa/clone/pkg/s3select"
 )
 
 const (

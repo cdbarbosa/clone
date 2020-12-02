@@ -1,4 +1,4 @@
-# Bucket Replication Guide [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/)
+# Bucket Replication Guide [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/cdbarbosa/clone/)
 
 Bucket replication is designed to replicate selected objects in a bucket to a destination bucket.
 
@@ -125,9 +125,9 @@ To perform bi-directional replication, repeat the above process on the target si
 
 It is recommended that replication be run in a system with atleast two CPU's available to the process, so that replication can run in its own thread.
 
-![put](https://raw.githubusercontent.com/minio/minio/master/docs/bucket/replication/PUT_bucket_replication.png)
+![put](https://raw.githubusercontent.com/cdbarbosa/clone/master/docs/bucket/replication/PUT_bucket_replication.png)
 
-![head](https://raw.githubusercontent.com/minio/minio/master/docs/bucket/replication/HEAD_bucket_replication.png)
+![head](https://raw.githubusercontent.com/cdbarbosa/clone/master/docs/bucket/replication/HEAD_bucket_replication.png)
 
 ## MinIO Extension
 Delete marker replication is allowed in [AWS V1 Configuration](https://aws.amazon.com/blogs/storage/managing-delete-marker-replication-in-amazon-s3/) but not in V2 configuration. The MinIO implementation above is based on V2 configuration, however it has been extended to allow both DeleteMarker replication and replication of versioned deletes with the `DeleteMarkerReplication` and `DeleteReplication` fields in the replication configuration above. By default, this is set to `Disabled` unless the user specifies it while adding a replication rule.
@@ -147,7 +147,7 @@ Note that both source and target instance need to be upgraded to latest release 
 
 Status of delete marker replication can be viewed by doing a GET/HEAD on the object version - it will return a `X-Minio-Replication-DeleteMarker-Status` header and http response code of `405`. In the case of permanent deletes, if the delete replication is pending or failed to propagate to the target cluster, GET/HEAD will return additional `X-Minio-Replication-Delete-Status` header and a http response code of `405`.
 
-![delete](https://raw.githubusercontent.com/minio/minio/master/docs/bucket/replication/DELETE_bucket_replication.png)
+![delete](https://raw.githubusercontent.com/cdbarbosa/clone/master/docs/bucket/replication/DELETE_bucket_replication.png)
 
 The status of replication can be monitored by configuring event notifications on the source and target buckets using `mc event add`.On the source side, the `s3:PutObject`, `s3:Replication:OperationCompletedReplication` and `s3:Replication:OperationFailedReplication` events show the status of replication in the `X-Amz-Replication-Status` metadata.
 

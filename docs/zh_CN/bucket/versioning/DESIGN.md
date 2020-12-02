@@ -1,4 +1,4 @@
-# 存储桶版本控制设计指南 [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/)
+# 存储桶版本控制设计指南 [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/cdbarbosa/clone/)
 
 ## `xl.meta` 文件描述
 
@@ -26,7 +26,7 @@ var (
 - LegacyObjectType (遗留的现有部署和较旧的xl.json格式)
 - DeleteMarker (一个versionId，主要是为了实现AWS规范兼容的DELETE序列)
 
-以下是个msgpack格式的`xl.meta`转为JSON后的样例,你可以通过 [xl-meta-to-json.go](https://github.com/minio/minio/blob/master/docs/zh_CN/bucket/versioning/xl-meta-to-json.go) 这个小程序把`xl.meta`转成JSON，查看里面的内容。
+以下是个msgpack格式的`xl.meta`转为JSON后的样例,你可以通过 [xl-meta-to-json.go](https://github.com/cdbarbosa/clone/blob/master/docs/zh_CN/bucket/versioning/xl-meta-to-json.go) 这个小程序把`xl.meta`转成JSON，查看里面的内容。
 ```json
 {
   "Versions": [

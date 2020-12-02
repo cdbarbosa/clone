@@ -241,7 +241,7 @@ const (
 	ErrInvalidStorageClass
 	ErrBackendDown
 	// Add new extended error codes here.
-	// Please open a https://github.com/minio/minio/issues before adding
+	// Please open a https://github.com/cdbarbosa/clone/issues before adding
 	// new error codes here.
 
 	ErrMalformedJSON

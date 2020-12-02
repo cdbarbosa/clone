@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/minio/minio/cmd/logger"
+	"github.com/cdbarbosa/clone/cmd/logger"
 )
 
 // markerTagVersion is the marker version.

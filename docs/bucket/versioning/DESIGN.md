@@ -1,4 +1,4 @@
-# Bucket Versioning Design Guide [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/)
+# Bucket Versioning Design Guide [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/cdbarbosa/clone/)
 
 ## Description of `xl.meta`
 
@@ -26,7 +26,7 @@ Once the header is validated, we proceed to the actual data structure of the `xl
 - LegacyObjectType (preserves existing deployments and older xl.json format)
 - DeleteMarker (a versionId to capture the DELETE sequences implemented primarily for AWS spec compatibility)
 
-A sample msgpack-JSON `xl.meta`, you can debug the content inside `xl.meta` using [xl-meta-to-json.go](https://github.com/minio/minio/blob/master/docs/bucket/versioning/xl-meta-to-json.go) program.
+A sample msgpack-JSON `xl.meta`, you can debug the content inside `xl.meta` using [xl-meta-to-json.go](https://github.com/cdbarbosa/clone/blob/master/docs/bucket/versioning/xl-meta-to-json.go) program.
 ```json
 {
   "Versions": [

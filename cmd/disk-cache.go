@@ -28,14 +28,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/minio/minio/cmd/config/cache"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
-	"github.com/minio/minio/pkg/color"
-	"github.com/minio/minio/pkg/hash"
-	"github.com/minio/minio/pkg/sync/errgroup"
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/cdbarbosa/clone/cmd/config/cache"
+	xhttp "github.com/cdbarbosa/clone/cmd/http"
+	"github.com/cdbarbosa/clone/cmd/logger"
+	objectlock "github.com/cdbarbosa/clone/pkg/bucket/object/lock"
+	"github.com/cdbarbosa/clone/pkg/color"
+	"github.com/cdbarbosa/clone/pkg/hash"
+	"github.com/cdbarbosa/clone/pkg/sync/errgroup"
+	"github.com/cdbarbosa/clone/pkg/wildcard"
 )
 
 const (

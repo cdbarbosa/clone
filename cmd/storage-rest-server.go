@@ -36,10 +36,10 @@ import (
 
 	jwtreq "github.com/dgrijalva/jwt-go/request"
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/config"
-	xhttp "github.com/minio/minio/cmd/http"
-	xjwt "github.com/minio/minio/cmd/jwt"
-	"github.com/minio/minio/cmd/logger"
+	"github.com/cdbarbosa/clone/cmd/config"
+	xhttp "github.com/cdbarbosa/clone/cmd/http"
+	xjwt "github.com/cdbarbosa/clone/cmd/jwt"
+	"github.com/cdbarbosa/clone/cmd/logger"
 )
 
 var errDiskStale = errors.New("disk stale")

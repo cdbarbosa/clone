@@ -17,7 +17,7 @@
 package iampolicy
 
 import (
-	"github.com/minio/minio/pkg/bucket/policy"
+	"github.com/cdbarbosa/clone/pkg/bucket/policy"
 )
 
 // Policy claim constants

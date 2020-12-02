@@ -1,6 +1,6 @@
-# 存储桶配额配置快速入门指南 [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/)
+# 存储桶配额配置快速入门指南 [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/cdbarbosa/clone/)
 
-![quota](https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/bucket/quota/bucketquota.png)
+![quota](https://raw.githubusercontent.com/cdbarbosa/clone/master/docs/zh_CN/bucket/quota/bucketquota.png)
 
 存储桶有两种配额类型可供选择，分别是FIFO和Hard。
 

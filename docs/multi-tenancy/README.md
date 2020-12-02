@@ -1,4 +1,4 @@
-# MinIO Multi-Tenant Deployment Guide [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/)
+# MinIO Multi-Tenant Deployment Guide [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/cdbarbosa/clone/)
 
 This topic provides commands to set up different configurations of hosts, nodes, and drives. The examples provided here can be used as a starting point for other configurations.
 
@@ -20,7 +20,7 @@ minio server --address :9002 /data/tenant2
 minio server --address :9003 /data/tenant3
 ```
 
-![Example-1](https://github.com/minio/minio/blob/master/docs/screenshots/Example-1.jpg?raw=true)
+![Example-1](https://github.com/cdbarbosa/clone/blob/master/docs/screenshots/Example-1.jpg?raw=true)
 
 ### 1.2 Host Multiple Tenants on Multiple Drives (Erasure Code)
 
@@ -32,7 +32,7 @@ minio server --address :9002 /disk{1...4}/data/tenant2
 minio server --address :9003 /disk{1...4}/data/tenant3
 ```
 
-![Example-2](https://github.com/minio/minio/blob/master/docs/screenshots/Example-2.jpg?raw=true)
+![Example-2](https://github.com/cdbarbosa/clone/blob/master/docs/screenshots/Example-2.jpg?raw=true)
 
 ## <a name="distributed-deployment"></a>2. Distributed Deployment
 
@@ -58,7 +58,7 @@ minio server --address :9003 http://192.168.10.1{1...4}/data/tenant3
 
 **Note:** Execute the commands on all 4 nodes.
 
-![Example-3](https://github.com/minio/minio/blob/master/docs/screenshots/Example-3.jpg?raw=true)
+![Example-3](https://github.com/cdbarbosa/clone/blob/master/docs/screenshots/Example-3.jpg?raw=true)
 
 **Note**: On distributed systems, credentials must be defined and exported using the `MINIO_ACCESS_KEY` and  `MINIO_SECRET_KEY` environment variables. If a domain is required, it must be specified by defining and exporting the `MINIO_DOMAIN` environment variable.
 

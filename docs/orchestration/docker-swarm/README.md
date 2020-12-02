@@ -1,4 +1,4 @@
-# Deploy MinIO on Docker Swarm [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io)  [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/)
+# Deploy MinIO on Docker Swarm [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io)  [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/cdbarbosa/clone/)
 
 Docker Engine provides cluster management and orchestration features in Swarm mode. MinIO server can be easily deployed in distributed mode on Swarm to create a multi-tenant, highly-available and scalable object store.
 
@@ -47,7 +47,7 @@ docker node update --label-add minio4=true <DOCKER-NODE4>
 
 It is possible to run more than one minio service on one Docker Node. Set the labels accordingly.
 
-Download the [Docker Compose file](https://github.com/minio/minio/blob/master/docs/orchestration/docker-swarm/docker-compose-secrets.yaml?raw=true) on your Swarm master. Then execute the command
+Download the [Docker Compose file](https://github.com/cdbarbosa/clone/blob/master/docs/orchestration/docker-swarm/docker-compose-secrets.yaml?raw=true) on your Swarm master. Then execute the command
 
 ```shell
 docker stack deploy --compose-file=docker-compose-secrets.yaml minio_stack
@@ -80,7 +80,7 @@ Services in the Swarm which are attached to that network can interact with the h
 
 ### Notes
 
-* By default the Docker Compose file uses the Docker image for latest MinIO server release. You can change the image tag to pull a specific [MinIO Docker image](https://hub.docker.com/r/minio/minio/).
+* By default the Docker Compose file uses the Docker image for latest MinIO server release. You can change the image tag to pull a specific [MinIO Docker image](https://hub.docker.com/r/cdbarbosa/clone/).
 
 * There are 4 minio distributed instances created by default. You can add more MinIO services (up to total 16) to your MinIO Swarm deployment. To add a service
   * Replicate a service definition and change the name of the new service appropriately.

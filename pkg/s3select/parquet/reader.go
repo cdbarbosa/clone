@@ -21,10 +21,10 @@ import (
 	"io"
 
 	"github.com/bcicen/jstream"
-	parquetgo "github.com/minio/minio/pkg/s3select/internal/parquet-go"
-	parquetgen "github.com/minio/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
-	jsonfmt "github.com/minio/minio/pkg/s3select/json"
-	"github.com/minio/minio/pkg/s3select/sql"
+	parquetgo "github.com/cdbarbosa/clone/pkg/s3select/internal/parquet-go"
+	parquetgen "github.com/cdbarbosa/clone/pkg/s3select/internal/parquet-go/gen-go/parquet"
+	jsonfmt "github.com/cdbarbosa/clone/pkg/s3select/json"
+	"github.com/cdbarbosa/clone/pkg/s3select/sql"
 )
 
 // Reader - Parquet record reader for S3Select.

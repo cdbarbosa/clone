@@ -17,7 +17,7 @@
 package iampolicy
 
 import (
-	"github.com/minio/minio/pkg/bucket/policy/condition"
+	"github.com/cdbarbosa/clone/pkg/bucket/policy/condition"
 )
 
 // AdminAction - admin policy action.
