@@ -25,7 +25,7 @@ ENV MINIO_ACCESS_KEY_FILE=access_key \
 
 EXPOSE 9000
 
-COPY --from=builder /go/bin/minio /usr/bin/minio
+COPY --from=builder /go/bin/clone /usr/bin/clone
 COPY --from=builder /go/clone/CREDITS /third_party/
 COPY --from=builder /go/clone/dockerscripts/docker-entrypoint.sh /usr/bin/
 
