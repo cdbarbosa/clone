@@ -37,4 +37,4 @@ ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
 
 VOLUME ["/data"]
 
-CMD ["minio"]
+CMD ["clone"]
