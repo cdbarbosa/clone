@@ -68,25 +68,25 @@ verify-healing:
 
 # Builds minio locally.
 build: checks
-	@echo "Building minio binary to './minio'"
-	@GO111MODULE=on CGO_ENABLED=0 go build -tags kqueue -trimpath --ldflags "$(LDFLAGS)" -o $(PWD)/minio 1>/dev/null
+	@echo "Building minio binary to './clone'"
+	@GO111MODULE=on CGO_ENABLED=0 go build -tags kqueue -trimpath --ldflags "$(LDFLAGS)" -o $(PWD)/clone 1>/dev/null
 
 docker: checks
 	@echo "Building minio docker image '$(TAG)'"
-	@GOOS=linux GO111MODULE=on CGO_ENABLED=0 go build -tags kqueue -trimpath --ldflags "$(LDFLAGS)" -o $(PWD)/minio 1>/dev/null
+	@GOOS=linux GO111MODULE=on CGO_ENABLED=0 go build -tags kqueue -trimpath --ldflags "$(LDFLAGS)" -o $(PWD)/clone 1>/dev/null
 	@docker build -t $(TAG) . -f Dockerfile.dev
 
 # Builds minio and installs it to $GOPATH/bin.
 install: build
-	@echo "Installing minio binary to '$(GOPATH)/bin/minio'"
-	@mkdir -p $(GOPATH)/bin && cp -f $(PWD)/minio $(GOPATH)/bin/minio
-	@echo "Installation successful. To learn more, try \"minio --help\"."
+	@echo "Installing minio binary to '$(GOPATH)/bin/clone'"
+	@mkdir -p $(GOPATH)/bin && cp -f $(PWD)/clone $(GOPATH)/bin/clone
+	@echo "Installation successful. To learn more, try \"clone --help\"."
 
 clean:
 	@echo "Cleaning up all the generated files"
 	@find . -name '*.test' | xargs rm -fv
 	@find . -name '*~' | xargs rm -fv
-	@rm -rvf minio
+	@rm -rvf clone
 	@rm -rvf build
 	@rm -rvf release
 	@rm -rvf .verify*
