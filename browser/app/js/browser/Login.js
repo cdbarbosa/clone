@@ -117,7 +117,7 @@ export class Login extends React.Component {
               value={this.state.accessKey}
               onChange={this.accessKeyChange.bind(this)}
               className="ig-dark"
-              label="Access Key"
+              label="Username"
               id="accessKey"
               name="username"
               type="text"
