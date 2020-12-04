@@ -71,7 +71,7 @@ verify-healing:
 build: checks
 	@echo "Building minio binary to './clone'"
 	@echo "find $(PWD)"
-	@GO111MODULE=on CGO_ENABLED=0 go build -tags kqueue -trimpath --ldflags "$(LDFLAGS)" -o ./clone 1>/dev/null
+	@GO111MODULE=on CGO_ENABLED=0 go build -tags kqueue -trimpath --ldflags "$(LDFLAGS)" -o clone 1>/dev/null
 
 docker: checks
 	@echo "Building minio docker image '$(TAG)'"
