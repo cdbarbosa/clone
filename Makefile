@@ -70,7 +70,7 @@ verify-healing:
 # Builds minio locally.
 build: checks
 	@echo "Building minio binary to './clone'"
-	@GO111MODULE=on CGO_ENABLED=0 go build -o ../clone 1>/dev/null
+	@GO111MODULE=on CGO_ENABLED=0 go build .
 	@echo "It pass"
 
 docker: checks
